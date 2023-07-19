@@ -1,6 +1,6 @@
 function gcf(y,x){
-    let divisor;
-    for (let i = 1; i<=y && i<= x; i++) {
+    let divisor; //declare for varible for storing the greatest c factor
+    for (let i = 1; i<=y && i<= x; i++) { //
         
         if( x % i == 0 && y % i == 0){
             divisor = i;
